@@ -48,6 +48,7 @@ Here is some funny project for your reference.
 |Quad-Band|850/900/1800/1900MHz|
 |GPRS multi-slot class|12/10|
 |GPRS mobile station class|B|
+|Standard GSM phase|2/2+|
 |FM|76~109MHz|
 |Bluetooth|compliant with 3.0+EDR|
 |Supply voltage range|3.4 ~ 4.4V|
