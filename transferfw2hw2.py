@@ -1,3 +1,7 @@
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
 def transfer(in_string):
     return_string = ""
     for each_char in in_string:
@@ -15,7 +19,7 @@ try:
     filename = input()
     try:
 	with open(filename,"r") as origin:
-	    myfile = origin.read().decode("utf8")
+	    myfile = origin.read().decode("utf-8")
 		#print(transfer(myfile))
 	filename = filename + '_out'
     except:
