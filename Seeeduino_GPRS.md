@@ -50,7 +50,7 @@ Here is some funny project for your reference.
 |GPRS mobile station class|B|
 |Standard GSM phase|2/2+|
 |FM|76~109MHz|
-|Bluetooth|compliant with 3.0+EDR|
+|Bluetooth|Compliant with 3.0+EDR|
 |Supply voltage range|3.4 ~ 4.4V|
 
 
@@ -74,11 +74,38 @@ The images below show an overview of Seeeduino GPRS hardware features. The pin-o
 
 ![](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/images/seeeduino_gprs_hardware2.png?raw=true)
 
+* **Power Switch**
+Slide switch used to change the logic level and power output of the board to either 5V or 3.3V. 
+Nowadays many new and great sensors are being develop to work with 3.3V, with other duino boards you would need to place a logic level converter between the board and these sensor(s), with the Seeeduino GPRS board all you have to do is slide the switch!
+* **DC Input**
+The DC Input allows your Seeeduino GPRS board to be powered from a wall adapter so that you can supply more power to your project if needed, for example when using DC motors or other high power devices. The DC input can be 9V-12V and peak current is 2A.
+But there's a hardware bug in Seeeduino GPRS that you have to notice. When an external power input, there's very short 6V at the 5V pin, last about 2ms. **It is risk to destroy the device that connected to 5V.** So we recommend that don't use the DC Input to power the system. And we had considered to fix the bug already, but will not come out very soon.
 
+* **Breakout for SIM800h**
+You can debug Sim800h by this interface.
 
+* **ICSP**
+This is the ICSP connection for the ATMEGA32U4-MUR, it is located in the standard ICSP/SPI position for Arduino Uno, Due, Mega, and Leonardo compatible hardware (e.g. shields) that may use this connector. The SPI pins in this port: MISO, SCK, and MOSI, are also connected to digital pins 12, 13, and 11 respectively just like those of the Arduino Leonardo.
 
+* **LED PWR2**
+SIM800H Power Indication
+
+* **LED STA**
+Operating Status Indication
+
+* **LED NET**
+|Status|SIM800H Behavior|
+|Off|SIM800H is not running|
+|64ms on/800ms off|SIM800H not registered the network|
+|64ms on/3000ms off|SIM800H registered the network|
+|64ms on/300ms off|SIM800H communication is established|
 
 ##Getting Started
+
+To start to play with the Seeeduino GPRS, a headphone and a SIM card are required.
+![]()
+![]()
+
 
 
 
