@@ -1,13 +1,14 @@
 ---
 title: Seeeduino GPRS
-category: Arduino
+category: Arduino,IoT
 bzurl: https://www.seeedstudio.com/Seeeduino-GPRS-p-1909.html
 oldwikiname: Seeeduino_GPRS
 prodimagename: seeeduino_gprs_cover.jpg
+surveyurl: https://www.surveymonkey.com/r/Seeeduino_GPRS
 sku: 102010016
 ---
 
-![](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/images/seeeduino_gprs_cover.jpg?raw=true)
+![](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/seeeduino_gprs_cover.jpg?raw=true)
 
 Seeeduino GPRS is a IoT panel, you can connect to the internet through GPRS wireless network with it. Making/answering voice calls and sending/receiving SMS messages are also supported. Meanwhile, Seeeduino GPRS supports FM radio function and bluetooth communication. Seeeduino GPRS is base on Atmage32U4 and SIM800H. Atmage32U4 is a microcontroller and it is compatible with Arduino. SIM800H support Quad-band 850/900/1800/1900MHz, it can transmit Voice, SMS and data information with low power consumption. SIM800H also brings some extra features like for example Bluetooth and FM radio. It is designed with power saving technique so that the current consumption is as low as 0.1mA in sleep mode. 
 
@@ -72,7 +73,7 @@ Here is some funny project for your reference.
 
 The images below show an overview of Seeeduino GPRS hardware features. The pin-out and alternate functions of various pins of Seeeduino GPRS are shown in the pin-out diagram. This could be used as a quick reference.
 
-![](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/images/seeeduino_gprs_hardware2.png?raw=true)
+![](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/seeeduino_gprs_hardware2.png?raw=true)
 
 * **Power Switch**
 Slide switch used to change the logic level and power output of the board to either 5V or 3.3V. 
@@ -117,7 +118,7 @@ If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/M
 !!!Note
     This drive is available for Windows XP, Windows Vista, Windows 7, Windows 8/8.1 and Windows 10.
     
-[![enter image description here](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/images/download_driver.png?raw=true)](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver/archive/master.zip)
+[![enter image description here](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/download_driver.png?raw=true)](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver/archive/master.zip)
 
 - Plug in your board and wait for Windows to begin its driver installation process. After a few moments, the process will fail, despite best efforts.
 - Click on the Start Menu, and open up the Control Panel.
@@ -140,7 +141,7 @@ You don't need to install any drivers.
     
 First of all, you need to Install an Arduino Software.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
+[![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/img/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
 
 
 ###Launch the Arduino application
@@ -160,12 +161,12 @@ Open the LED blink example sketch: **File > Examples >01.Basics > Blink**.
 You'll need to select the entry in the **Tools > Board** menu that corresponds to your Arduino.
 Selecting a **Arduino Leonardo**.
 
-![enter image description here](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/images/seeeduino_gprs_select_board.jpg?raw=true)
+![enter image description here](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/seeeduino_gprs_select_board.jpg?raw=true)
 
 ###Select your serial port
 Select the serial device of the Arduino board from the Tools | Serial Port menu. This is likely to be COM3 or higher (**COM1** and **COM2** are usually reserved for hardware serial ports). To find out, you can disconnect your Arduino board and re-open the menu; the entry that disappears should be the Arduino board. Reconnect the board and select that serial port.
 
-![enter image description here](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/images/seeeduino_gprs_select_com.jpg?raw=true)
+![enter image description here](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/seeeduino_gprs_select_com.jpg?raw=true)
 
 !!!Note
     On the Mac, this should be something with **/dev/tty.USBmodem**.
@@ -187,9 +188,9 @@ Seeeduino GPRS offers the function of a mobile phone such as making/receiving vo
      
 To start to play with the Seeeduino GPRS, a headphone and a SIM card are required.
 
-![](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/images/500px-Seeeduino_gprs_t.jpg?raw=true)
+![](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/500px-Seeeduino_gprs_t.jpg?raw=true)
 
-![](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/images/500px-Seeeduino_gprs_b.jpg?raw=true)
+![](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/500px-Seeeduino_gprs_b.jpg?raw=true)
 
 ####To make a call
 
@@ -390,14 +391,14 @@ void loop() {
 ##Resources
 
 * **Schematic**
-    [Seeeduino GPRS Eagle file](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/resources/Seeeduino_GPRS_v1.0_Eagle.zip)
-    [Seeeduino GPRS PDF file](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/resources/Seeeduino_GPRS_v1.0_Schematic.pdf)
+    [Seeeduino GPRS Eagle file](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/res/Seeeduino_GPRS_v1.0_Eagle.zip)
+    [Seeeduino GPRS PDF file](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/res/Seeeduino_GPRS_v1.0_Schematic.pdf)
     
 * **Firmware**     
-    [Seeeduino GPRS Firmware & Update Guide](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/resources/Firmware_update_for_Seeeduino_GPRS_v1.0.zip)
+    [Seeeduino GPRS Firmware & Update Guide](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/res/Firmware_update_for_Seeeduino_GPRS_v1.0.zip)
    
 * **SIM800 AT Command**    
-    [SIM800 Series AT Command PDF](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/resources/SIM800_Series_AT_Command_Manual_V1.01%20(2).pdf)
+    [SIM800 Series AT Command PDF](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/res/SIM800_Series_AT_Command_Manual_V1.01%20(2).pdf)
 
 * **Seeeduino GPRS Library**  
     [Seeeduino GPRS Library on GitHub](https://github.com/Seeed-Studio/Seeeduino_GPRS)
