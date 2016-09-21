@@ -24,7 +24,7 @@ Seeeduino GPRS is a IoT panel, you can connect to the internet through GPRS wire
 Here is some funny project for your reference.
 
 |Arduino GPS/GSM Tracker|Arduino Phone 2.0|Arduino GPRS Weather Station|
-|-------|-------|-------|
+|----------|----------|---------|
 |![](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/example_1.jpg?raw=true)|![](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/example_2.jpg?raw=true)|![](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/example_3.jpg?raw=true)|
 |[Make it Now](http://www.instructables.com/id/Arduino-GPSGSM-Tracker/)|[Make it Now](http://www.instructables.com/id/ArduinoPhone-20-an-Open-Source-Mobile-Phone-Based-/)|[Make it Now](http://www.instructables.com/id/Arduino-GPRS-Weather-Station-Part-1/)|
 
@@ -162,12 +162,12 @@ Open the LED blink example sketch: **File > Examples >01.Basics > Blink**.
 You'll need to select the entry in the **Tools > Board** menu that corresponds to your Arduino.
 Selecting a **Arduino Leonardo**.
 
-![enter image description here](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/seeeduino_gprs_select_board.jpg?raw=true)
+![enter image description here](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/seeeduino_gprs_select_board.png?raw=true)
 
 ###Select your serial port
 Select the serial device of the Arduino board from the Tools | Serial Port menu. This is likely to be COM3 or higher (**COM1** and **COM2** are usually reserved for hardware serial ports). To find out, you can disconnect your Arduino board and re-open the menu; the entry that disappears should be the Arduino board. Reconnect the board and select that serial port.
 
-![enter image description here](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/seeeduino_gprs_select_com.jpg?raw=true)
+![enter image description here](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/seeeduino_gprs_select_com.png?raw=true)
 
 !!!Note
     On the Mac, this should be something with **/dev/tty.USBmodem**.
