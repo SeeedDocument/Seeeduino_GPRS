@@ -22,6 +22,7 @@ Seeeduino GPRS is a IoT panel, you can connect to the internet through GPRS wire
 * Industrial
 
 Here is some funny project for your reference.
+
 |Arduino GPS/GSM Tracker|Arduino Phone 2.0|Arduino GPRS Weather Station|
 |-------|-------|-------|
 |![](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/example_1.jpg?raw=true)|![](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/example_2.jpg?raw=true)|![](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/example_3.jpg?raw=true)|
@@ -402,8 +403,3 @@ void loop() {
 
 * **Seeeduino GPRS Library**  
     [Seeeduino GPRS Library on GitHub](https://github.com/Seeed-Studio/Seeeduino_GPRS)
-
-##FAQ
-
-
-##Help us to make it better
