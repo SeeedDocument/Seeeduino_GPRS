@@ -96,6 +96,7 @@ SIM800H Power Indication
 Operating Status Indication
 
 * **LED NET**
+
 |Status|SIM800H Behavior|
 |------------|-------------|
 |Off|SIM800H is not running|
@@ -393,19 +394,20 @@ void loop() {
 ##Resources
 
 * **Schematic**
+
     [Seeeduino GPRS Eagle file](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/res/Seeeduino_GPRS_v1.0_Eagle.zip)
+    
     [Seeeduino GPRS PDF file](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/res/Seeeduino_GPRS_v1.0_Schematic.pdf)
     
 * **Firmware**     
+
     [Seeeduino GPRS Firmware & Update Guide](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/res/Firmware_update_for_Seeeduino_GPRS_v1.0.zip)
    
 * **SIM800 AT Command**    
+
     [SIM800 Series AT Command PDF](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/res/SIM800_Series_AT_Command_Manual_V1.01%20(2).pdf)
 
 * **Seeeduino GPRS Library**  
+
     [Seeeduino GPRS Library on GitHub](https://github.com/Seeed-Studio/Seeeduino_GPRS)
 
-##FAQ
-
-
-##Help us to make it better
