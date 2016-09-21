@@ -96,7 +96,9 @@ SIM800H Power Indication
 Operating Status Indication
 
 * **LED NET**
+
 |Status|SIM800H Behavior|
+|------------|-------------|
 |Off|SIM800H is not running|
 |64ms on/800ms off|SIM800H not registered the network|
 |64ms on/3000ms off|SIM800H registered the network|
@@ -108,11 +110,11 @@ Operating Status Indication
 First of all, you need to:
 
 * **Get a Micro-USB cable**
-    * You need a Micro-USB cable first; the data cable of an Android Phone will do fine.
+You need a Micro-USB cable first; the data cable of an Android Phone will do fine.
 If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/Micro-USB-Cable-48cm-p-1475.html?cPath=98_100).
 
 * **Connect the board**
-    * Connect the Arduino board to your computer using the USB cable. The green power LED (labelled **PWR**) should go on.
+Connect the Arduino board to your computer using the USB cable. The green power LED (labelled **PWR**) should go on.
 
 ###For Windows
 
@@ -156,7 +158,7 @@ Double-click the Arduino application (arduino.exe) you have previously downloade
 
 Open the LED blink example sketch: **File > Examples >01.Basics > Blink**.
 
-![enter image description here]()
+![enter image description here](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/select_blink.png?raw=true)
 
 ###Select your board
 You'll need to select the entry in the **Tools > Board** menu that corresponds to your Arduino.
@@ -175,7 +177,7 @@ Select the serial device of the Arduino board from the Tools | Serial Port menu.
 ###Upload the program
 Now, simply click the "Upload" button in the environment. Wait a few seconds and if the upload is successful, the message "Done uploading." will appear in the status bar.
 
-![enter image description here]()
+![enter image description here](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/img/upload_image.png?raw=true)
 
 A few seconds after the upload finishes, you should see the pin 13 (LED Pin 13) LED on the board start to blink (in green). If it does, congratulations! You've gotten Arduino up-and-running. If you have problems, please see the troubleshooting suggestions.
 
@@ -392,14 +394,20 @@ void loop() {
 ##Resources
 
 * **Schematic**
+
     [Seeeduino GPRS Eagle file](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/res/Seeeduino_GPRS_v1.0_Eagle.zip)
+    
     [Seeeduino GPRS PDF file](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/res/Seeeduino_GPRS_v1.0_Schematic.pdf)
     
 * **Firmware**     
+
     [Seeeduino GPRS Firmware & Update Guide](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/res/Firmware_update_for_Seeeduino_GPRS_v1.0.zip)
    
 * **SIM800 AT Command**    
+
     [SIM800 Series AT Command PDF](https://github.com/SeeedDocument/Seeeduino_GPRS/blob/master/res/SIM800_Series_AT_Command_Manual_V1.01%20(2).pdf)
 
 * **Seeeduino GPRS Library**  
+
     [Seeeduino GPRS Library on GitHub](https://github.com/Seeed-Studio/Seeeduino_GPRS)
+
